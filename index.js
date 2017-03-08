@@ -1,6 +1,6 @@
 const GITHUB = 'https://github.com/maijz128/bilibili-index-icon';
 const URL = 'index-icon.json';
-const ZIP = '';
+const ZIP = 'https://github.com/maijz128/bilibili-index-icon/raw/zip/2017-3-8-bilibili-index-icon-524.zip';
 
 var jsonObj = {};
 var app = angular.module('myApp', []);
