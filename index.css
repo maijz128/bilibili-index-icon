@@ -1,0 +1,52 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, PingFang SC, Source Han Sans CN, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+}
+
+.icon {
+    display: inline-block;
+    margin: 1em;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    z-index: 1000;
+    width: 100%;
+    height: 70px;
+    background-color: mediumseagreen;
+}
+
+#github, #logo, #download {
+    display: inline-block;
+    color: darkcyan;
+    cursor: pointer;
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+#github, #download {
+    float: right;
+    margin-right: 20px;
+}
+
+#download-info{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+    z-index: 1000;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+    background-color: mediumseagreen;
+    visibility: hidden;
+}
