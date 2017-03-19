@@ -50,3 +50,7 @@
     background-color: mediumseagreen;
     visibility: hidden;
 }
+
+#content{
+    margin-top: 75px;
+}
