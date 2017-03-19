@@ -1,5 +1,5 @@
 const GITHUB = 'https://github.com/maijz128/bilibili-index-icon';
-const URL = 'index-icon.json';
+const URL = 'index-icon.json';  //https://www.bilibili.com/index/index-icon.json
 const ZIP = 'https://github.com/maijz128/bilibili-index-icon/archive/icon.zip';
 
 var jsonObj = {};
