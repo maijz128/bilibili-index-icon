@@ -1,6 +1,6 @@
 # Bilibili-Index-Icon
 
-## Update: 2017-03-19
+## Update: 2017-04-03
 
 ### [Preview](https://maijz128.github.io/bilibili-index-icon/)
 
