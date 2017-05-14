@@ -35,6 +35,7 @@
         <div class="icon" ng-repeat="icon in jsonObj.fix">
             <a href="{{icon.links[0]}}" title="{{icon.title}}" target="_blank">
                 <img src="{{formatURL(icon.icon)}}">
+				<p>{{icon.title}}</p>
             </a>
         </div>
     </div>

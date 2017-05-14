@@ -54,3 +54,15 @@
 #content{
     margin-top: 75px;
 }
+
+p, p:hover, a, a:hover{
+	text-decoration: none;
+}
+#content a  p{
+	opacity: 0.7;
+    color: black;
+	text-align: center;
+}
+#content a  p:hover{
+	opacity: 1;
+}
