@@ -5,7 +5,11 @@
     <title>Bilibili Index Icon</title>
 
     <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="angular.min.js"></script>
+    <script src="lib/FileSaver.min.js"></script>
+    <script src="lib/jszip-utils.min.js"></script>
+    <script src="lib/jszip.min.js"></script>
+    <script src="lib/vue-lazyload.js"></script>
+    <script src="lib/vue.js"></script>
     <script src="index.js"></script>
 
     <script>
@@ -19,25 +23,28 @@
     </script>
 </head>
 <body>
-<div id="header">
-    <div id="logo">
-        <h1>Bilibili Index Icon</h1>
+<div id="wrapper">
+    <div id="header">
+        <div id="logo" @click="reload()">
+            <h1>Bilibili Index Icon</h1>
+        </div>
+        <div id="github" @click="toGithub()">
+            <h1>Github</h1>
+        </div>
+        <div id="download" @click="download()">
+            <h1>Download</h1>
+        </div>
     </div>
-    <div id="github">
-        <h1>Github</h1>
-    </div>
-    <div id="download">
-        <h1>Download</h1>
-    </div>
-</div>
-<div id="content" ng-app="myApp" ng-controller="myCtrl">
-    <div>
-        <div class="icon" ng-repeat="icon in jsonObj.fix">
-            <a href="{{icon.links[0]}}" title="{{icon.title}}" target="_blank">
-                <img src="{{formatURL(icon.icon)}}">
-				<p>{{icon.title}}</p>
+    <div id="content">
+        <div class="icon" v-for="icon in jsonObj.fix">
+            <a :href="icon.links[0]" :title="icon.title" target="_blank">
+                    <img v-lazy="formatURL(icon.icon)">
+                <p>{{icon.title}}</p>
             </a>
         </div>
+    </div>
+    <div id="download-info">
+        Download.....
     </div>
 </div>
 </body>
