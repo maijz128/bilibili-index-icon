@@ -6,4 +6,6 @@
 
 ### [Download](https://github.com/maijz128/bilibili-index-icon/archive/icon.zip)
 
+### [index](https://www.bilibili.com/index/index-icon.json)
+
 ![image](https://github.com/maijz128/bilibili-index-icon/raw/master/GIF.gif)
