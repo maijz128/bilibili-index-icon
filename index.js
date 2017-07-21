@@ -1,7 +1,7 @@
 const GITHUB = 'https://github.com/maijz128/bilibili-index-icon';
 const INDEX_URL = 'https://www.bilibili.com/index/index-icon.json';
 const ONLINE_INDEX_URL = 'index-icon.json';
-const ZIP = 'https://github.com/maijz128/bilibili-index-icon/archive/icon.zip';
+const ZIP = 'https://github.com/maijz128/bilibili-index-icon/archive/master.zip';
 
 var appData = {
     jsonObj: {}
